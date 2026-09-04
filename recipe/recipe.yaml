@@ -1,6 +1,6 @@
 context:
   name: pytranskit
-  version: 0.2.9
+  version: "0.3.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pytranskit-${{ version }}.tar.gz
-  sha256: cbd4d27afca16441edb4aeb3b35cc2f8e18be0a33e99d20b391a327c32821a36
+  sha256: 7c30deb7d6515944a4a5048574be4860217dba9874725e9c2a8b40da2f25712d
 
 build:
   number: 0
